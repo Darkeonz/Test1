@@ -65,7 +65,7 @@ namespace Assignment1.Tests
 			string actual = Example.GetStringResult(arg);
 
 			// Assert
-			Assert.Equal(expected, actual);
+			Assert.NotEqual(expected, actual);
 		}
 
 		[Fact]
@@ -79,7 +79,7 @@ namespace Assignment1.Tests
 			string actual = Example.GetStringResult(arg);
 
 			// Assert
-			Assert.Equal(expected, actual);
+			Assert.NotEqual(expected, actual);
 		}
 	}
 
