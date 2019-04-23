@@ -36,10 +36,10 @@ Afterwards we could write a test that checks if the time is in the range we're t
 
 	public void TicketIsASaverTicket()
 		{		
-      boolean ticketBool = CheckSaverTicket(Timespan time)
-			Assert.InRange(time, ticketSaverStart930, saverTicketEnd1600);
-      Assert.InRange(time, saverTicketStart1930, saverTicketEnd2359);
-      Assert.Equal(True, ticketBool)
+      		boolean ticketBool = CheckSaverTicket(Timespan time)
+		Assert.InRange(time, ticketSaverStart930, saverTicketEnd1600);
+      		Assert.InRange(time, saverTicketStart1930, saverTicketEnd2359);
+      		Assert.Equal(True, ticketBool)
 		}
     
 One of the issues with the testcase is that it is not determined when between 7.30 pm and 9.30 am, the ticket changes back to a full fare ticket.
