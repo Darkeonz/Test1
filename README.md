@@ -34,7 +34,7 @@ We need to check the actual time.
     
 Afterwards we could write a test that checks if the time is in the range we're talking about.
 
-public void TicketIsASaverTicket()
+	public void TicketIsASaverTicket()
 		{		
       boolean ticketBool = CheckSaverTicket(Timespan time)
 			Assert.InRange(time, ticketSaverStart930, saverTicketEnd1600);
