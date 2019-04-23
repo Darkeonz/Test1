@@ -13,6 +13,8 @@ Exercise 2
 We need to check the actual time. Now since this is a blackbox technique, we only know that the metod CheckSaverTicket() returns a true boolean if it is such a ticket, and a false if it is not.
 
 So in our test method we can check if it is within the timepan
+
+		[Fact]
 		public void TicketIsASaverTicket()
 		{		
       		boolean ticketBool = CheckSaverTicket(time)
